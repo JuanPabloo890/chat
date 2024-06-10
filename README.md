@@ -6,6 +6,22 @@
 - npm install -g firebase-tools
 - npm install @capacitor/core @capacitor/cli 
 ```
+## Configuracion de variables
+```sh
+export const environment = {
+  production: false,
+  firebaseConfig: {
+    apiKey: 'tus_datos',
+    authDomain: 'tus_datos',
+    databaseURL: 'tus_datos',
+    projectId: 'tus_datos',
+    storageBucket: 'tus_datos',
+    messagingSenderId: 'tus_datos',
+    appId: 'tus_datos',
+    measurementId: 'tus_datos',
+  },
+};
+```
 ## Aplicacion corriendo
 ```sh
 ionic serve
