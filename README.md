@@ -11,14 +11,14 @@
 export const environment = {
   production: false,
   firebaseConfig: {
-    apiKey: 'tus_datos',
-    authDomain: 'tus_datos',
-    databaseURL: 'tus_datos',
-    projectId: 'tus_datos',
-    storageBucket: 'tus_datos',
-    messagingSenderId: 'tus_datos',
-    appId: 'tus_datos',
-    measurementId: 'tus_datos',
+    apiKey: '',
+    authDomain: '',
+    databaseURL: '',
+    projectId: '',
+    storageBucket: '',
+    messagingSenderId: '',
+    appId: '',
+    measurementId: '',
   },
 };
 ```
