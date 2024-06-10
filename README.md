@@ -33,4 +33,4 @@ ionic serve
 </p>
 
 ## Aplicacion en la WEB
-https://a-2d457.web.app/chat
+https://chat-ionic-b9990.web.app/chat
