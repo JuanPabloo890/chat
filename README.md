@@ -16,5 +16,5 @@ ionic serve
   <img src="https://github.com/JuanPabloo890/chat/assets/119060037/d8bb369d-e21c-45fd-b905-6e8473e5d380" alt="Descripción de la imagen 3" />
 </p>
 
-## Aplicacion en la WEE
+## Aplicacion en la WEB
 https://a-2d457.web.app/chat
