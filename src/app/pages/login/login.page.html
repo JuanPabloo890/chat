@@ -1,0 +1,46 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Chat</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding custom-content">
+
+  <form [formGroup]="credentialForm" class="custom-form">
+    <ion-item class="custom-item">
+      <ion-input
+        placeholder="Email address"
+        formControlName="email"
+        autofocus="true"
+        clearInput="true"
+        class="custom-input"
+      ></ion-input>
+    </ion-item>
+    <div *ngIf="email?.dirty || email?.touched">
+      <div *ngIf="email?.errors" class="errors">
+        <span *ngIf="email?.errors?.['required']" class="custom-error">Email is required</span>
+        <span *ngIf="email?.errors?.['email']" class="custom-error">Email is invalid</span>
+      </div>
+    </div>
+
+    <ion-item class="custom-item">
+      <ion-input
+        placeholder="Password"
+        type="password"
+        formControlName="password"
+        clearInput="true"
+        class="custom-input"
+      ></ion-input>
+    </ion-item>
+    <div *ngIf="password?.dirty || password?.touched">
+      <div *ngIf="password?.errors" class="errors">
+        <span *ngIf="password?.errors?.['required']" class="custom-error">Password is required</span>
+        <span *ngIf="password?.errors?.['minlength']" class="custom-error">Password needs to be 6 characters</span>
+      </div>
+    </div>
+  </form>
+
+  <ion-button (click)="signUp()" expand="full" class="custom-button">Sign up</ion-button>
+  <ion-button (click)="signIn()" expand="full" color="secondary" class="custom-button secondary">Sign in</ion-button>
+
+</ion-content>

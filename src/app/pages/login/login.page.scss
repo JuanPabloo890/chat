@@ -1,0 +1,49 @@
+.errors {
+  font-size: small;
+  color: #ffffff; /* Color del texto en los mensajes de error */
+  background: var(--ion-color-danger); /* Fondo rojo para los mensajes de error */
+  padding: 5px 15px; /* Espaciado interno */
+  border-radius: 5px; /* Bordes redondeados */
+  margin-top: 5px; /* Espacio superior */
+}
+
+.custom-content {
+  --background: #000000; /* Cambia el color de fondo */
+}
+
+.custom-form {
+  padding: 20px;
+  background: #3d3a3a; /* Fondo blanco para el formulario */
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.custom-item {
+  margin-bottom: 15px;
+}
+
+.custom-input {
+  --placeholder-color: #a0a0a0; /* Color del placeholder */
+  --background: #e8f0fe; /* Fondo de las entradas */
+  --color: #333; /* Color del texto de las entradas */
+  --padding-start: 10px;
+}
+
+.custom-error {
+  color: #000000; /* Color rojo para los mensajes de error */
+  font-size: 14px;
+}
+
+.custom-button {
+  --background: #4a90e2; /* Color de fondo del botón */
+  --background-activated: #357ab8; /* Color de fondo del botón al activarse */
+  --background-focused: #357ab8; /* Color de fondo del botón al enfocarse */
+  --color: #fff; /* Color del texto del botón */
+  margin-top: 10px;
+}
+
+.custom-button.secondary {
+  --background: #50bfa0; /* Color de fondo del botón secundario */
+  --background-activated: #41997e; /* Color de fondo del botón secundario al activarse */
+  --background-focused: #41997e; /* Color de fondo del botón secundario al enfocarse */
+}
